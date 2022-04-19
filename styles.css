@@ -85,8 +85,7 @@ body {
 }
 
 #cntLogin > #imgAdvocateLogin, #cntPrompt > #imgAdvocateLogout {
-	translate: 390px -800px;
-	transform: translateY(508px);
+	transform: translateY(-292px);
 	animation-name: pop-in_screen;
 	animation-duration: 0.5s;
 }
@@ -96,7 +95,7 @@ body {
 		transform: translateY(-1000px);
 	}
 	100% {
-		transform: translateY(508px);
+		transform: translateY(-292px);
 	}
 }
 
@@ -158,10 +157,6 @@ body {
 	left: 0;
 	right: 0;
 	transform: translate(0px, 510px);
-}
-
-#imgAdvocate {
-
 }
 
 .label {
